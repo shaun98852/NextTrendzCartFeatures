@@ -1,0 +1,47 @@
+/* Write your CSS here */
+.orderTotalBox {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .orderTotalBox {
+    align-self: flex-end;
+  }
+}
+
+.totalHeading {
+  font-family: roboto;
+  font-size: 22px;
+  color: #616e7c;
+  margin-bottom: 0px;
+}
+.priceSpan {
+  color: #171f46;
+  font-family: roboto;
+}
+
+.itemsInCart {
+  font-family: roboto;
+  font-size: 18px;
+  color: #616e7c;
+  margin-top: 0px;
+  font-weight: 400;
+}
+
+.checkoutButton {
+  border-style: none;
+  font-family: roboto;
+  font-size: 18px;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: #0b69ff;
+
+  height: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .checkoutButton {
+    width: 220px;
+  }
+}
